@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+ .user_form{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ }
+
+ .form {
+   width: 300px;
+   margin: 0 auto;
+ }
+
+ .form input {
+   width: 100%;
+   display: block;
+   margin: 10px 0;
+   padding: 5px;
+   outline: none;
+ }
+
+ .form button{
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #111;
+   transition: 0.2s ease-in-out;
+   color: #fff;
+ }
+
+ .form button.login{
+   background: rgb(3, 127, 32);
+ }
+ .form button.signup{
+  background: rgb(127, 3, 86);
+}
+
+.form button:hover{
+  background: transparent;
+  color: #111;
+}
+.admin_page {
+  display: none;
+
+}
+
+.admin_section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0 ;
+
+}
+
+.admin_section button{
+  padding: 5px 20px ;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #111;
+  transition: 0.2s ease-in-out;
+}
+
+.admin_section button:hover{
+  background: transparent;
+  color: #111;
+}
+
+/* notify */
+
+
+
+.notify{
+  display: block;
+  width: 300px;
+  position: absolute;
+  margin: 0 auto;
+  top: 20%;
+  background: green;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+/* forget_password */
+.forget_link{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.forget_password{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  background: #f1f1f1;
+ visibility: hidden;
+}
+.forget_password input , .forget_password button{
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  padding: 5px 2px;
+  border: 1px solid ;
+  outline: none;
+  transition: .2s ease-in;
+}
+
+
+.forget_password button{
+  background: #330169;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+
+.forget_password button:hover{
+  background: transparent;
+  color: #111;
+  border: 1px solid;
+}
+
+.notify2{
+  display: block;
+  font-size: 18px;
+  background-color: #111;
+  color: #fff;
+}
+
+
+
+.forget_password a{
+  background: #111;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #111;
+  transition: 0.2s ease-in;
+}
+
+.forget_password a:hover{
+  background: transparent;
+  color: #111;
+
+}
+
+
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+
+.visible{
+  visibility: visible;
+}
